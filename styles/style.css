@@ -11,10 +11,12 @@ header {
     width: auto;
     height: 500px;
 }
-.header{
-    padding: 8% ;
+
+.header {
+    padding: 8%;
 }
-.header-title{
+
+.header-title {
     font-size: 60px;
     font-weight: 900;
 
@@ -26,19 +28,57 @@ header {
     color: #ffff;
     background: tomato;
     border: 0;
-    border-radius: 2px;
-    /* margin-bottom: 3px; */
+    border-radius: 4px;
     font-size: 15px;
-   font-weight:700 ;
+    font-weight: 700;
     margin-top: 25px;
     padding: 15px 30px;
+
+}
+
+/* header style end */
+
+/* doneate section styles start */
+
+.money-section{
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section-title {
+    color: #121212;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #707070;
+    text-align: center;
+}
+
+.money-amount {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+#donate-money{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    padding: 50px;
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+}
+.money {
+    color: rgb(68, 67, 67);
+    background-color: #FAFAFA;
+    padding: 50px;
+    border-radius: 5px;
+}
+.Other-Amount{
+text-align: center;
+}
+hr{
+    margin: 8px 180px 0px;
    
 }
-/* color: #FFFFFF;
-font-weight: 700;
-font-size: 20px;
-border: 0;
-padding: 18px 35px;
-height: 64px;
-border-radius: 5px;
-background: #FD6E0A; */
