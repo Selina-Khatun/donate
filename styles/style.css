@@ -119,3 +119,18 @@ h3{
     padding: 50px 25px;
     border-radius: 5px;
 }
+/* donation section styles */
+.donation{
+display: flex;
+gap: 80px;
+margin: 120PX 250PX 30px 150px;
+}
+.contribute{
+  padding-top:50px;
+}
+.Contribute-title{
+
+}
+.Contribute-description{
+
+}
