@@ -11,7 +11,9 @@ header {
     width: auto;
     height: 500px;
 }
-
+p{
+    padding-top: 20px;
+}
 .header {
     padding: 8%;
 }
@@ -33,14 +35,14 @@ header {
     font-weight: 700;
     margin-top: 25px;
     padding: 15px 30px;
-
+    margin-bottom: 60px;
 }
 
 /* header style end */
 
 /* doneate section styles start */
 
-.money-section{
+.money-section {
     align-items: center;
     margin-top: 50px;
 }
@@ -55,30 +57,65 @@ header {
 .section-description {
     color: #707070;
     text-align: center;
+    padding: 10px;
 }
 
 .money-amount {
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px;
+    padding: 50px 250px;
 }
-#donate-money{
+
+#donate-money {
     color: #FF5959;
-    background-color: #FFEEEE;
+    background-color: #FAFAFA;
     padding: 50px;
     border-radius: 5px;
     border: 2px solid #FF5959;
 }
+
 .money {
     color: rgb(68, 67, 67);
-    background-color: #FAFAFA;
+    background-color: #fcf4f4;
     padding: 50px;
     border-radius: 5px;
 }
-.Other-Amount{
-text-align: center;
+
+.Other-Amount {
+    text-align: center;
 }
-hr{
-    margin: 8px 180px 0px;
-   
+
+hr {
+    margin: 8px 240px 0px;
+
+}
+
+/* donate plan section styles */
+.donate-plan {
+    display: flex;
+    justify-content: space-between;
+    margin: 30PX 150PX;
+    gap: 30px;
+    
+}
+h3{
+    padding-top: 20px;
+}
+
+.food {
+    background-color: #e7fbfd;
+    padding: 50px 25px;
+    border-radius: 5px;
+}
+
+.shelter {
+    background-color: #fdebeb;
+    padding: 50px 25px;
+    border-radius: 5px;
+}
+
+.education {
+    background-color: #f8edd3;
+    padding: 50px 25px;
+    border-radius: 5px;
 }
